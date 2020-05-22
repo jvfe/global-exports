@@ -1,0 +1,7 @@
+md5: 6a5a99d9e79d15259621e6c9b630c72b
+outs:
+- md5: d1c58de81c6be76461500a9153c3eefc
+  path: trading_nodelist.csv
+  cache: true
+  metric: false
+  persist: false
