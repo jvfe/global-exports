@@ -1,0 +1,7 @@
+md5: 8998d7627e096df1d7330234dd6cd2d4
+outs:
+- md5: 18f490c0ec8a1da4da0fc5f75bab78d9
+  path: major-trading-partners.csv
+  cache: true
+  metric: false
+  persist: false
