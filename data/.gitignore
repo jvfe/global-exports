@@ -1,3 +1,7 @@
 /major-trading-partners.csv
 /trading_edgelist.csv
 /trading_nodelist.csv
+/exports_edgelist.csv
+/exports_nodelist.csv
+/imports_nodelist.csv
+/imports_edgelist.csv
