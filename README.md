@@ -1,4 +1,4 @@
-# Global export network
+# Global Export Network
 
 A project in which I analyse and visualize the global network of exports. 
 
