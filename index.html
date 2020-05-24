@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Exports Network</title>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.7.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.0.0-beta.10"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite-api@0.1.0"></script>
+  <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+</head>
+
+<body>
+  <section class="hero-head">
+    <div class="container">
+      <h1 class="title">Vega-Lite Global Exports Network</h1>
+      <p class="subtitle-is-1"><i>Data acquired from the <a target="_blank" href="http://data.un.org/">UN database.</a></i></p>
+      <p class="subtitle-is-1">Check out an even better version on <a target="_blank"
+          href="https://observablehq.com/d/d6f9f7aecfedff39">Observable</a></p>
+      </br>
+      <div id="description" style="text-align: justify;" class="box">
+        <ul>
+          <li>An interactive visualization of exports among countries, taking into account major trading partners of
+            each
+            country.</li>
+          <li>Edge between country x and country y means that a meaningful part of country x's exports go to country y,
+            therefore, country y is a 'major trading partner' of country x.</li>
+          <li>Edge width corresponds to the percentage of that country's exports that go to the other country, the
+            thicker
+            it
+            is, the larger the percentage of the exports.</li>
+          <li>Country node size corresponds the in-degree of the country, that is, how many countries have said country
+            as
+            one of their 'major trading partners.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</br>
+  <section>
+    <div id="chart" class="container">
+    </div>
+    <script type="text/javascript" src="./viz/index.js"></script>
+  </section>
+</body>
+
+</html>
